@@ -19,11 +19,10 @@ LICENSE = "GPLv2+"
 LIC_FILES_CHKSUM = "file://Licenses/gpl-2.0.txt;md5=b234ee4d69f5fce4486a80fdaf4a4263"
 
 PR = "r0"
-SRCSERVER = "git://github.com/TechNexion/u-boot-tn-imx.git;protocol=https"
+SRCSERVER = "git://github.com/koshish246/meta-tn-imx-bsp.git;protocol=https"
 SRCOPTIONS = ""
-SRCBRANCH = "tn-imx_v2020.04_5.4.70_2.3.0-next"
+SRCBRANCH = "zeus"
 SRC_URI = "${SRCSERVER};branch=${SRCBRANCH}${SRCOPTIONS}"
-SRCREV = "f8619d84fb3fcaea248cf197a7ea6134b2fb1dfe"
 SRC_URI_append = " file://splash.bmp"
 
 S = "${WORKDIR}/git"
