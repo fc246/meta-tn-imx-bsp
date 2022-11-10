@@ -23,6 +23,7 @@ SRCSERVER = "git://github.com/koshish246/meta-tn-imx-bsp.git;protocol=https"
 SRCOPTIONS = ""
 SRCBRANCH = "zeus"
 SRC_URI = "${SRCSERVER};branch=${SRCBRANCH}${SRCOPTIONS}"
+SRCREV = "80e04bbcddbb23e41c99757e7c5a372011650cad"
 SRC_URI_append = " file://splash.bmp"
 
 S = "${WORKDIR}/git"
